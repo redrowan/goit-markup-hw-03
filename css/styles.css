@@ -18,7 +18,7 @@ body {
     display: block;
 }
 
-.flex-section .image {
+.margin-image {
 margin-bottom: 32px;
 }
 
@@ -244,7 +244,7 @@ gap:24px;
             border-radius: 0px 0px 4px 4px;
 }
 
-.portfolio-flex {
+.works-flex {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -272,11 +272,16 @@ gap:24px;
     color: var(--hover-button-color);
 }
 
+.portfolio-flex {
+    display: flex;
+        flex-wrap: wrap;
+}
 
 .portfolio-present {
-    margin-bottom: 48px;
     border-bottom: 1px solid #E7E9FC;
     max-width: 360px;
+    flex-basis: calc((100%-48px)/3);
+    
 }
 
 .border-top{
