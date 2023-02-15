@@ -280,7 +280,7 @@ gap:24px;
 .portfolio-present {
     border-bottom: 1px solid #E7E9FC;
     max-width: 360px;
-    flex-basis: calc((100%-48px)/3);
+    flex-basis: calc((100%-192px)/3);
     
 }
 
